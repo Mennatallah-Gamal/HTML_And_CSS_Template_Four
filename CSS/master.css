@@ -994,6 +994,19 @@ ul {
     font-size: 40px;
     opacity: 0.2;
 }
+@media (max-width: 767px) {
+    .friends-page .friend .info{
+       flex-wrap: wrap;
+    }
+    .friends-page .friend .info span{
+       width: 100%;
+       margin-bottom: 10px;
+    }
+    .friends-page .friend .info a:nth-child(2){
+       position: absolute;
+       right: 0;
+    }
+}
 /* End Friends Page */
 /* Start File page */
 .files-page {
